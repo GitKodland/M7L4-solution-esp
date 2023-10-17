@@ -40,7 +40,7 @@ def voices():
     try:
         text = speech_en()
     except:
-        text = "Something went wrong..."
+        text = "Algo salió mal..."
     return render_template("create_card.html", text=text)
 
 
